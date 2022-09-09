@@ -23,7 +23,7 @@ int main(void)
 
 	{
 
-		printf("%d is positive\n", n);
+		printf ("%d is positive\n", n);
 
 	}
 
@@ -31,7 +31,7 @@ int main(void)
 
 	{
 
-		printf("%d is negative\n", n);
+		printf ("%d is negative\n", n);
 
 	}
 
