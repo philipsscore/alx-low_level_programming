@@ -15,7 +15,7 @@ int main(void)
 	{
 		if (num != 'q' && num != 'e')
 		{
-		putchar(num);
+			putchar(num);
 
 		}
 	num++;
