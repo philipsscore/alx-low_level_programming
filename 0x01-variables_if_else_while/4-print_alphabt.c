@@ -23,7 +23,7 @@ int main(void)
 
 			putchar(num);
 
-			num++
+			num++;
 
 		}
 
