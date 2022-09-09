@@ -10,7 +10,6 @@ int main(void)
 	char num;
 
 	num = 'a';
-	
 	while (num <= 'z')
 	{
 		if (num != 'q' && num != 'e')
@@ -21,6 +20,6 @@ int main(void)
 	num++;
 	}
 	putchar('\n');
-	return (0);
+	return (0),
 	
 }
