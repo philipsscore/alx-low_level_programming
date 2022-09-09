@@ -19,7 +19,7 @@ int main(void)
 
 		putchar(num);
 
-		num++
+		num++;
 
 	}
 
@@ -33,7 +33,7 @@ int main(void)
 
 		putchar(num);
 
-		num++
+		num++;
 
 	}
 
