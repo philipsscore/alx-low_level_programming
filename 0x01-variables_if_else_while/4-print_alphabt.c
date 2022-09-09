@@ -7,6 +7,7 @@
 
 int main(void)
 {
+	
 	char num;
 
 	num = 'a';
@@ -18,7 +19,7 @@ int main(void)
 			putchar(num);
 
 		}
-	num++;
+		num++;
 	}
 	
 	putchar('\n');
