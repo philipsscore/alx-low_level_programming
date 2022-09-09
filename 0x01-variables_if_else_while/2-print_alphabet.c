@@ -6,11 +6,14 @@
 int main(void)
 
 {
-	char ch;
+	int num;
 
-	for (ch = 'a' ; ch <= 'z' ; ch++) 
-	{
-	putchar (ch);
-	}
-	return (0);
+	num = 97;
+
+	while (num <= 122)
+
+		putchar(num);
+
+	num++;
+	return (0)
 }
