@@ -8,27 +8,19 @@
 int main(void)
 
 {
-
 	char num;
 
 	num = 'a';
-
+	
 	while (num <= 'z')
-
 	{
-
 		if (num != 'q' || num != 'e')
-
 		{
-
 			putchar(num);
 
-			num++;
-
 		}
-
+		num++;
 		putchar('\n');
-
 		return (0);
-
 	}
+}
