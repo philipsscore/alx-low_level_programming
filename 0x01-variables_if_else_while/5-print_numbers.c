@@ -5,13 +5,27 @@
 */
 
 int main(void)
-{
-	int ch;
 
-	for (ch = 0 ; ch < 10 ; ch++)
+{
+
+	int r;
+
+
+
+
+
+
+
+	for (r = 0; r <= 9; r++)
+
 	{
-		printf("%d", ch);
+
+		printf("%d", r);
+
 	}
-       	printf("\n");
+
+	printf("\n");
+
 	return (0);
+
 }
