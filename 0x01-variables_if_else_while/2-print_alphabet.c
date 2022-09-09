@@ -6,15 +6,15 @@
 int main(void)
 
 {
-	int num;
+	char num;
 
-	num = 97;
+	num = 'a';
 
-	while (num <= 122)
-
+	while (num <= 'z')
+	{
 	putchar(num);
-
 	num++;
-
+	}
+	putchar('\n');
 	return (0);
 }
