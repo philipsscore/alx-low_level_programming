@@ -2,33 +2,33 @@
 
 /**
 * main - Entry point
-* Return: Always 0 (Success) 
+* Return: Always 0 (Success)
 */
 
 int main(void)
 
 {
 
-	int y;
-	
-	for (y = 97; y <= 122; y++)
+	char num;
+
+	num = 'a';
+
+	while (num <= 'z')
+
 	{
-		if (m == 101 || m == 113)
-		      	if (y == 101 || y == 113)
 
-			       {
+		if (num != 'q' || num != 'e')
 
-			       }
-			else
+		{
 
-			       {
-				       putchar(y);
+			putchar(num);
 
-			       }
-}
+			num++
 
-	putchar('\n');
+		}
 
-	return (0);
+		putchar('\n');
 
-}
+		return (0);
+
+	}
