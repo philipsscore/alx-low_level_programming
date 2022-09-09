@@ -25,8 +25,6 @@ int main(void)
 
 
 
-	char num;
-
 	num = 'A';
 
 	while (num <= 'Z')
