@@ -12,8 +12,9 @@ int main(void)
 
 	while (num <= 122)
 
-		putchar(num);
+	putchar(num);
 
 	num++;
+
 	return (0)
 }
