@@ -1,16 +1,18 @@
 #include "main.h"
+
 /**
- * print_alphabet - function to print c  
- * 
- * Return: 0
- */
+* print_alphabet - check the code for Holberton School students
+* Return: Always 0.
+*/
+
 void print_alphabet(void)
 {
-	char alp;
+	char alp = 'a';
 
-	for (alp = 'a'; alp <= 'z'; alp++)
+	while (alp <= 'z')
 	{
-		_putchar(alp);
+		_putchar (alp);
+		alp++;
 	}
-	_putchar('\n');
+	_putchar ('\n');
 }
