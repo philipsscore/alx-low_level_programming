@@ -1,8 +1,8 @@
 #include <unistd.h>
 /**
-*_putchar - whrite character in c
+* _putchar - write character in c
 * @c: the chracter to print 
-*return 1 on success and o on error
+* return 1 on success and o on error
 */
 int _putchar(char c)
 {
