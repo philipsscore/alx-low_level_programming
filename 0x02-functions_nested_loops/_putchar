@@ -1,0 +1,9 @@
+#include <unistd.h
+/**
+*_putchar - whrite character in c
+* @c: the chracter to print 
+*return 1 on success and o on error
+*/
+int _putchar(char c)
+{
+return (write(1, &c, 1));
