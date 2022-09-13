@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_alphabet - function to print c  
+*print_alphabet - function to print c  
 * main - Entry point
 * Return: Always 0 (Success)
 */
