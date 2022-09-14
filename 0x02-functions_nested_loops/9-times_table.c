@@ -23,16 +23,16 @@ void times_table(void)
 					_putchar(multiplied_value % 10 + '0');
 				}
 				else
-	    {
-		    _putchar(' ');
-		_putchar(' ');
-		_putchar(multiplied_value + '0');
-	    }
-	    if (x != 9)
-	    {
-		    _putchar(',');
-	    }
+				{
+				       	_putchar(' ');
+					_putchar(' ');
+					_putchar(multiplied_value + '0');
+				}
+				if (x != 9)
+				{
+					_putchar(',');
+				}
+		}
+		_putchar('\n');
 	}
-	_putchar('\n');
-    }
 }
