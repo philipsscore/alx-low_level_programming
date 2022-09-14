@@ -13,16 +13,16 @@ void times_table(void)
 		{
 			multiplied_value = x * y;
 				if (x == 0)
-	    {
-		    _putchar(multiplied_value + '0');
-	    }
-	    else if (multiplied_value >= 10)
-	    {
-		    _putchar(' ');
-		    _putchar(multiplied_value / 10 + '0');
-		    _putchar(multiplied_value % 10 + '0');
-	    }
-	    else
+				{
+					_putchar(multiplied_value + '0');
+				}
+				else if (multiplied_value >= 10)
+				{
+					_putchar(' ');
+					_putchar(multiplied_value / 10 + '0');
+					_putchar(multiplied_value % 10 + '0');
+				}
+				else
 	    {
 		    _putchar(' ');
 		_putchar(' ');
