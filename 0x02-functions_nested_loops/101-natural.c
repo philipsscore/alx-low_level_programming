@@ -12,6 +12,7 @@ int main(void)
 	int m5 = 5;
 	int sum = 0;
 	int lim = 1024;
+
 	while (i == 0)
 	{
 		if (m3 < lim)
