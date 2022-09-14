@@ -24,7 +24,7 @@ void print_to_98(int n)
 		}
 	}
 	else
-       	{
+	{
 		for (i = n; i <= 98 ; i++)
 		{
 			if (i != n)
@@ -34,5 +34,5 @@ void print_to_98(int n)
 			printf("%d", i);
 		}
 	}
-       	putchar('\n');
+	putchar('\n');
 }
