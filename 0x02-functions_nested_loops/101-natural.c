@@ -8,13 +8,9 @@
 int main(void)
 {
 	int i = 0;
-	
 	int m3 = 3;
-	
 	int m5 = 5;
-	
 	int sum = 0;
-	
 	int lim = 1024;
 
        	while (i == 0)
