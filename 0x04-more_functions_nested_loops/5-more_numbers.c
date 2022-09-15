@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
 * more_numbers - Print numbers between 0 to 14 incl.
@@ -17,6 +16,7 @@ void more_number(void)
 		{
 			tens = number / 10;
 			units = number % 10;
+			
 			if (number > 9)
 			{
 				_putchar(tens + '0');
