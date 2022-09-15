@@ -6,10 +6,11 @@
 *
 * Return: Void.
 */
+
 void more_number(void)
 {
 	int number, tens, units, row;
-
+	
 	for (row = 1; row <= 10; row++)
 	{
 		for (number = 0; number <= 14; number++)
@@ -17,8 +18,9 @@ void more_number(void)
 			tens = number / 10;
 			units = number % 10;
 			if (number > 9)
+			{
 				_putchar(tens + '0');
-
+			}
 			_putchar(units + '0');
 		}
 		_putchar('\n');
