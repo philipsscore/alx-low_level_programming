@@ -8,22 +8,19 @@
 */
 void more_number(void)
 {
-	int i;
-	int x;
+	int number, tens, units, row;
 
-	for (x = 0; x < 10; x++)
+	for (row = 1; row <= 10; row++)
 	{
-		i = 0;
-		
-		while (i <= 14)
+		for (number = 0; number <= 14; number++)
 		{
-			if (i >= 10)
-			{
-				_putchar(i / 10 + '0');
-			}
-			_putchar(i % 10 + '0';
-					i++
-					}
-					_putchar('\n');
-					}
-					}
+			tens = number / 10;
+			units = number % 10;
+			if (number > 9)
+				_putchar(tens + '0');
+
+			_putchar(units + '0');
+		}
+		_putchar('\n');
+	}
+}
