@@ -6,21 +6,23 @@
 *
 * Return: Void.
 */
-void more_numbers(void)
+void more_number(void)
 {
-	 int number, tens, units, row;
+	int i;
+	int x;
 
-	 for (row = 1; row <= 10; row++)
-	 {
-		 for (number = 0; number <= 14; number++)
-		 {
-			 tens = number / 10;
-			 units = number % 10;
-			 if (number > 9)
-				 _putchar(tens + '0');
-			 
-			 _putchar(units + '0');
-		 }
-	 }
-	 _putchar('\n');
+	for (x = 0; x < 10; x++)
+	{
+		i = 0;
+		while (i <= 14)
+		{
+			if (i >= 10)
+			{
+				_putchar(i / 10 + '0');
+			}
+				_putchar(i % 10 + '0';
+			i++
+		}
+	_putchar('\n');
+	}
 }
