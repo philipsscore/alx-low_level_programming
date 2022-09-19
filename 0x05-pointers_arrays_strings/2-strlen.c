@@ -5,15 +5,15 @@
 * @s: input char
 * Return: length of a string
 */
+
 int _strlen(char *s)
 {
-	int i = 0;
+	int l = 0;
 
 	while (*s != '\0')
 	{
 		s++;
-		i++;
+		l++;
 	}
-
-	return (1);
+	return (l);
 }
