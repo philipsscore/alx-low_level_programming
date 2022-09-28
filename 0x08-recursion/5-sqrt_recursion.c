@@ -28,4 +28,3 @@ int natural_sqrt_recursion(int n, int i)
 		return (i);
 	return (i);
 }
- 
