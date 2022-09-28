@@ -20,6 +20,7 @@ int _sqrt_recursion(int n)
 *
 * Return: the natural sqrt of n
 */
+
 int natural_sqrt_recursion(int n, int i)
 {
 	if (i * i > n)
