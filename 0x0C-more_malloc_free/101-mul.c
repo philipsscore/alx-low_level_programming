@@ -44,4 +44,3 @@ int _isdigit(char *s)
 	}
 	return (0);
 }
-
