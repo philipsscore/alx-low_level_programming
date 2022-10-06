@@ -34,6 +34,7 @@ int main(int argc, char *argv[])
 *
 * Return: 1 if true, else 0.
 */
+
 int _isdigit(char *s)
 {
 	while (*s)
