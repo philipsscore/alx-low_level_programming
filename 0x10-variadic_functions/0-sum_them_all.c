@@ -6,7 +6,7 @@
 *
 * Return: return the sum of all given arguments
 */
-Return: return the sum of all given arguments
+int sum_them_all(const unsigned int n, ...)
 {
 	int sum, num;
 	unsigned int i;
