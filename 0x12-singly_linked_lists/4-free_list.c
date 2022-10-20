@@ -3,16 +3,20 @@
 /**
 * free_list - free the memory allocated to a linked list
 * @head: a double pointer to a linked list
-* Return: nothing
+*Return: nothing
 */
 void free_list(list_t *head)
 {
-	list_t *current;
+	list_t *place_holder;
 
-	while ((!current = head) != NULL)
+	while (head)
 	{
-		head = current->next;
-		free(current->str);
-		free(current);
+		if (head->str)
+			free(head->str);
+
+		place_holder = head;
+		head = head->next;
+
+		free(place_holder);
 	}
 }
