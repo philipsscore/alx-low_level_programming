@@ -18,6 +18,12 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 	fd_r = open(argv[1], O_RDONLY);
+	if (fd_r < 0)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		exit(98);
+	}
+	fd_w = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	while ((r = read(fd_r, buf, BUFSIZ)) > 0)
 	{
 		if (fd_w < 0 || write(fd_w, buf, r) != r)
